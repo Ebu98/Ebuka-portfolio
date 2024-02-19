@@ -27,9 +27,9 @@ const About = (props: Props) => {
       />
       <div className="space-y-4 px-0 md:px-10  mt-[10px]">
         <h4 className=" text-2xl md:text-3xl font-semibold">
-          Here is a 
-          <span className="underline decoration-[orange]">little</span>
-          Background
+          Here is a  
+          <span className="underline decoration-[orange]"> little </span>
+            Background
         </h4>
         <p className="text-base">
           My background in both SwiftUI and UIKit gives me a comprehensive

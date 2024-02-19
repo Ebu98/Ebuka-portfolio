@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
         <Link href="#hero">
           <footer className="sticky bottom-5 w-full cursor-pointer">
             <div className="flex items-center justify-center">
-              <img
+              <Image
                 className="w-10 h-10 rounded-full grayscale hover:grayscale-0"
                 src="./images/decagon.jpg" alt="img"
               />
