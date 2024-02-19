@@ -36,7 +36,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <img
                 className="w-10 h-10 rounded-full grayscale hover:grayscale-0"
-                src="./images/decagon.jpg"
+                src="./images/decagon.jpg" alt="img"
               />
             </div>
           </footer>

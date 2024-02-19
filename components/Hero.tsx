@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 
@@ -20,7 +20,7 @@ const Hero = (props: Props) => {
       <img
         className="relative rounded-full h-32 w-32  mx-auto object-center object-cover"
         src="./images/yeni.jpeg"
-        alt=""
+        alt="img"
       />
       <div className="z-20">
         <h2 className="tracking-[10px] md:tracking-[15px] text-sm pb-2 uppercase text-gray-500">
