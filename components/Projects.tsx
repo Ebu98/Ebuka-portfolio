@@ -62,7 +62,7 @@ const Projects = (props: Props) => {
                     );
                   })}
                 </div>
-                <p className="text-lg text-center md:text-left font-semibold">
+                <p className="text-lg text-center md:text-left font-semibold text-[#000]">
                   {oneProject.desc}
                 </p>
               </div>
