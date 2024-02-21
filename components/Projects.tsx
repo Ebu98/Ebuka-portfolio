@@ -15,9 +15,9 @@ const Projects = (props: Props) => {
       }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen relative flex flex-col text-left  md:flex-row max-w-full justify-evenly mx-auto items-center z-0 "
+      className="h-screen relative flex flex-col text-left  md:flex-row max-w-full justify-evenly mx-auto items-center z-0 bg-[#F9FAFB]"
     >
-      <h3 className="tracking-[20px] text-2xl text-gray-500 absolute top-24 uppercase  ">
+      <h3 className="tracking-[20px] text-2xl text-[#000] absolute top-24 uppercase  ">
         Projects
       </h3>
 
@@ -71,8 +71,8 @@ const Projects = (props: Props) => {
         ))}
       </div>
 
-      <div className="h-[450px] left-0 -skew-y-12 absolute top-250%] w-full bg-[#808000]" />
-      {/* <div className="h-[300px] left-0 -skew-y-12 absolute top-[30%] w-full bg-gray-400" /> */}
+      {/* <div className="h-[500px] left-0 -skew-y-0 absolute top-250%] w-full bg-[#808000]" /> */}
+      {/* <div className="h-[500px] left-0 -skew-y-0 absolute top- 90% w-full bg-gray-400" /> */}
     </motion.div>
   );
 };

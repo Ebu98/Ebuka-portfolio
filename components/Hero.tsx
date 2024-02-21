@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
-import Image from 'next/image'
+
 
 type Props = {};
 
@@ -18,7 +18,7 @@ const Hero = (props: Props) => {
   return (
     <div className="h-screen flex flex-col space-y-8 justify-center items-center, text-center overflow-hidden">
       <BackgroundCircles />
-      <Image
+      <img
         className="relative rounded-full h-32 w-32  mx-auto object-center object-cover"
         src="./images/yeni.jpeg"
         alt="img"
