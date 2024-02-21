@@ -1,7 +1,7 @@
 const projects = [
     {
       id: 1,
-      img: "/images/logo.png",
+      img: "/images/swift.jpeg",
       percent: "85%",
       desc: 'I collaborated with some colleague of mine to build this Website and its functionalities',
       title:'School Mates',
@@ -10,7 +10,7 @@ const projects = [
     },    
     {
         id: 2,
-        img: "/images/netflix.jpg",
+        img: "/images/coredata.png",
         percent: "85%",
         desc: 'A Movie App that has a Log in and Log out authentication powered by Next auth and Firebase, It has a beautiful home screen and a nice User Interface.',
         title:' Movie App',
@@ -19,7 +19,7 @@ const projects = [
       },    
       {
         id: 3,
-        img: "/images/ecommerce.png",
+        img: "/images/rxSwift.png",
         percent: "85%",
         desc: 'An E-commerce site where you can go to and place orders for items that are on display',
         title:'  E-commerce Site ',
