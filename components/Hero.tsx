@@ -9,12 +9,34 @@ type Props = {};
 const Hero = (props: Props) => {
   const [text] = useTypewriter({
     words: [
-      "Hi, i'm Ugwu Ebuka Kingsley.",
+      "Hi, i'm Yeni.",
       "Welcome, It's nice to see you here!!",
     ],
     loop: true,
     delaySpeed: 2000,
   });
+  function numberOfLines(num:any){
+    let answer = ""
+    switch (num) {
+    case 1:
+     return answer = "Equal";
+      break;
+    case 2:
+      return answer = "Small";
+      break;
+    case 3:
+      return answer = "Large";
+    case 4:
+      return answer = "Huge"
+    }
+  }
+
+  // console.log(numberOfLines(0))
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.push("Banana123");
+console.log(fruits)
+console.log(fruit)
+
   return (
     <div className="h-screen flex flex-col space-y-8 justify-center items-center, text-center overflow-hidden">
       <BackgroundCircles />

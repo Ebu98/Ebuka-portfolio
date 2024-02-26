@@ -64,13 +64,13 @@ const Header = (props: Props) => {
         transition={{ duration: 1.5 }}
         className="flex flex-row items-center cursor-pointer text-gray-300"
       >
-        {/* <SocialIcon
+        <SocialIcon
           className="cursor-pointer"
           network="email"
           fgColor="gray"
           bgColor="transparent"
-        /> */}
-        <EnvelopeIcon className="cursor-pointer text-[gray] h-7 w-7 mr-4" />
+        />
+        {/* <EnvelopeIcon className="cursor-pointer text-[gray] h-7 w-7 mr-4" /> */}
         <p className="uppercase hidden   md:inline-flex text-gray-400 text-[14px]">
           Get In touch
         </p>

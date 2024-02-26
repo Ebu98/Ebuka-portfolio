@@ -15,9 +15,9 @@ const Projects = (props: Props) => {
       }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="h-screen relative flex flex-col text-left  md:flex-row max-w-full justify-evenly mx-auto items-center z-0 bg-[#F9FAFB]"
+      className="h-screen relative flex flex-col text-left  md:flex-row max-w-full justify-evenly mx-auto items-center z-0 text-gray-400 "
     >
-      <h3 className="tracking-[20px] text-2xl text-[#000] absolute top-24 uppercase  ">
+      <h3 className="tracking-[20px] text-2xl absolute top-24 uppercase   text-gray-400">
         Projects
       </h3>
 
@@ -62,7 +62,7 @@ const Projects = (props: Props) => {
                     );
                   })}
                 </div>
-                <p className="text-lg text-center md:text-left font-semibold text-[#000]">
+                <p className="text-lg text-center md:text-left font-semibold ">
                   {oneProject.desc}
                 </p>
               </div>

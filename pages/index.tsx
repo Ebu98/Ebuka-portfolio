@@ -27,7 +27,7 @@ export default function Home() {
         <section className="snap-start" id="projects">
           <Projects />
         </section>
-        <section id="contactme" className="snap-start">
+        {/* <section id="contactme" className="snap-start">
           <ContactMe />
         </section>
 
@@ -40,7 +40,7 @@ export default function Home() {
               />
             </div>
           </footer>
-        </Link>
+        </Link> */}
       </div> 
     </>
   );
