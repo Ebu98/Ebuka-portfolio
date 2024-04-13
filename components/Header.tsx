@@ -2,7 +2,7 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { EnvelopeIcon } from "@heroicons/react/24/solid";
+// import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
@@ -24,12 +24,12 @@ const Header = (props: Props) => {
         className="flex  items-center flex-row"
       >
         <SocialIcon
-          url="https://www.instagram.com/tonyking_1234/"
+          url="https://www.instagram.com/yeni_babatunde/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/EbukaKing10"
+          url="https://twitter.com/yeni_babatunde"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -39,7 +39,7 @@ const Header = (props: Props) => {
           bgColor="transparent"
         /> */}
         <SocialIcon
-          url="https://github.com/Ebu98"
+          url="https://github.com/yeniBabatunde"
           fgColor="gray"
           bgColor="transparent"
         />

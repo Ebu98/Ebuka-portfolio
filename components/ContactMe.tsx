@@ -33,18 +33,18 @@ const ContactMe = (props: Props) => {
         </h4>
 
         <div className="space-y-6">
-          <div className="flex items-center space-x-5 justify-center  ">
+          {/* <div className="flex items-center space-x-5 justify-center  ">
             <PhoneIcon className="h-7 w-7 animate-pulse text-[#808000]  " />
             <p className="font-semibold text-xl md:text-4xl">+2347039634445</p>
-          </div>
+          </div> */}
           <div className="flex items-center space-x-5 justify-center  ">
-            <EnvelopeIcon className="h-7 w-7 animate-pulse text-[#808000]  " />
+            <EnvelopeIcon className="h-7 w-7 animate-pulse text-[#995614]  " />
             <p className="font-semibold text-xl md:text-4xl">
               ebukaking98@gmail.com
             </p>
           </div>
           <div className="flex items-center space-x-5 justify-center  ">
-            <MapPinIcon className="h-7 w-7 animate-pulse text-[#808000]  " />
+            <MapPinIcon className="h-7 w-7 animate-pulse text-[#995614]  " />
             <p className="font-semibold text-xl md:text-4xl">Lagos,Nigeria</p>
           </div>
         </div>
@@ -78,9 +78,10 @@ const ContactMe = (props: Props) => {
               className="contactInput"
               placeholder="Message"
             />
-            <button className="bg-[#808000] py-3 px-2 rounded-md font-bold text-white text-lg">
+            <button className="bg-[#995614] py-3 px-2 rounded-md font-bold text-white text-lg">
               Submit
             </button>
+            {/* bg-[#808000] */}
           </form>
         </div>
       </div>

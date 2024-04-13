@@ -34,10 +34,10 @@ const About = (props: Props) => {
         <p className="text-base">
           My background in both SwiftUI and UIKit gives me a comprehensive
           understanding of iOS development, allowing me to adapt seamlessly to
-          different project requirements. I&apos; ve honed my skills in writing clean
+          different project requirements. I&apos;ve honed my skills in writing clean
           and reusable code, ensuring that the solutions I provide are not just
           functional but also maintainable in the long run. I bring a
-          collaborative and positive mindset to any team I join. I&apos; m not just
+          collaborative and positive mindset to any team I join. I&apos;m not just
           open to change; I actively seek impactful opportunities to contribute
           and grow. My excellent reputation for integrity and productivity
           reflects my commitment to delivering quality work and fostering a
