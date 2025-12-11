@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className="bg-[rgb(36,36,36)] text-white h-screen overflow-y-scroll overflow-x-hidden snap-y snap-mandatory z-0  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 scrollbar-thin">
         <Head>
-          <title>Yeni Portfolio</title>
+          <title>Ebuka Portfolio</title>
         </Head>
         <Header />
         <section id="hero" className="snap-start">
@@ -30,13 +30,13 @@ export default function Home() {
         <section id="contactme" className="snap-start">
           <ContactMe />
         </section>
-
+        
         <Link href="#hero">
           <footer className="sticky bottom-5 w-full cursor-pointer">
             <div className="flex items-center justify-center">
               <img
                 className="w-10 h-10 rounded-full grayscale hover:grayscale-0"
-                src="./images/decagon.jpg" alt="img"
+                src="./images/ebuka-portfolio.jpeg" alt="img"
               />
             </div>
           </footer>

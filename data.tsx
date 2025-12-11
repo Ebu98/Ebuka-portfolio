@@ -6,7 +6,7 @@ const skills = [
   },
   {
     id: 2,
-    img: "/images/rxSwift.png",
+    img: "/images/vscode.jpg",
     percent: "50%",
   },
   {
@@ -16,7 +16,7 @@ const skills = [
   },
   {
     id: 4,
-    img: "/images/coredata.png",
+    img: "/images/javascript.png",
     percent: "75%",
   },
 
@@ -27,8 +27,18 @@ const skills = [
   },
   {
     id: 6,
-    img: "/images/swift.jpeg",
+    img: "/images/typescript.png",
     percent: "80%",
   },
+  {
+    id: 7,
+    img:"/images/react-native-image.png",
+    percent:"50%"
+  },
+  {
+    id: 7,
+    img:"/images/react-image.png",
+    percent:"80%"
+  }
 ];
 export default skills;

@@ -1,28 +1,32 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {};
 
 const Hero = (props: Props) => {
+  
+
   const [text] = useTypewriter({
-    words: ["Hi, i'm Yeni.", "Welcome, It's nice to see you here!!"],
+    words: ["Hi, i'm Ebuka.", "Welcome, It's nice to see you here!!"],
     loop: true,
     delaySpeed: 2000,
   });
 
+
+// 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
   return (
     <div className="h-screen flex flex-col space-y-8 justify-center items-center, text-center overflow-hidden">
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32  mx-auto object-center object-cover"
-        src="./images/yeni.jpeg"
+        src="./images/ebuka-portfolio.jpeg"
         alt="img"
       />
       <div className="z-20">
         <h2 className="tracking-[10px] md:tracking-[15px] text-sm pb-2 uppercase text-gray-500">
-          IOS ENGINEER
+          FRONTEND ENGINEER
         </h2>
         <h1 className="text-3xl lg:text-6xl font-semibold px-10">
           <span className="mr-3"> {text}</span>
@@ -40,7 +44,7 @@ const Hero = (props: Props) => {
           </Link>
           <Link href="#projects">
             {" "}
-            <button className="heroButton">Article</button>
+            <button className="heroButton">Projects</button>
           </Link>
           <Link href="#contactme">
             {" "}

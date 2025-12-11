@@ -22,18 +22,18 @@ const About = (props: Props) => {
         transition={{
           duration: 1.2,
         }}
-        src="./images/yeni-image.jpeg"
+        src="./images/king-portfolio.jpeg"
         className="-mb-20 md:mb-0 mt-[70px] md:mt-0   flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:h-96 md:w-64 xl:w-[400px] xl:h-[450px]"
       />
       <div className="space-y-4 px-0 md:px-10  mt-[10px]">
         <h4 className=" text-2xl md:text-3xl font-semibold">
           Here is a  
           <span className="underline decoration-[orange]"> little </span>
-            Background
+            About me
         </h4>
         <p className="text-base">
-          My background in both SwiftUI and UIKit gives me a comprehensive
-          understanding of iOS development, allowing me to adapt seamlessly to
+          My background in both React js, ts, and React Native gives me a comprehensive
+          understanding of frontend development, allowing me to adapt seamlessly to
           different project requirements. I&apos;ve honed my skills in writing clean
           and reusable code, ensuring that the solutions I provide are not just
           functional but also maintainable in the long run. I bring a
