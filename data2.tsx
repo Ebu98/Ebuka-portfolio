@@ -12,8 +12,8 @@ const projects = [
         id: 2,
         img: "/images/github.png",
         percent: "85%",
-        desc: 'A Movie App that has a Log in and Log out authentication powered by Next auth and Firebase, It has a beautiful home screen and a nice User Interface.',
-        title:' Github Search/ Dev Hunt',
+        desc: 'An App that help developers to search for other developer github account, It has a beautiful home screen and a nice User Interface.',
+        title:' Github Search/Dev Hunt',
         technologies:['/images/tailwind-css-logo.png','/images/firebase.png','/images/react-image.png',"/images/typescript.png"],
         link:"https://devhunt-github.netlify.app/"
       },    
@@ -30,7 +30,7 @@ const projects = [
         id: 3,
         img: "/images/schoolmate.png",
         percent: "85%",
-        desc: 'eSchool is a cloud based School Management and Learning Management System that makes managing educational institutions easy and efficient. It provides useful insights for students, teachers, administrators and parents and helps them make better and faster decisions.        ',
+        desc: 'Is a cloud based School Management and Learning Management System that makes managing educational institutions easy and efficient. It provides useful insights for students, teachers, administrators and parents and helps them make better and faster decisions.        ',
         title:'  School Management System ',
         technologies:['/images/tailwind-css-logo.png','/images/html.png',"/images/javascript.png","/images/scss-icon.png"],
         link:"https://school-mates-demo.netlify.app/auth"
