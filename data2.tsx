@@ -26,5 +26,14 @@ const projects = [
         technologies:['/images/tailwind-css-logo.png','/images/html.png',"/images/javascript.png",],
         link:"https://regal-e-commerce.vercel.app/"
       },    
+      {
+        id: 3,
+        img: "/images/schoolmate.png",
+        percent: "85%",
+        desc: 'eSchool is a cloud based School Management and Learning Management System that makes managing educational institutions easy and efficient. It provides useful insights for students, teachers, administrators and parents and helps them make better and faster decisions.        ',
+        title:'  School Management System ',
+        technologies:['/images/tailwind-css-logo.png','/images/html.png',"/images/javascript.png","/images/scss-icon.png"],
+        link:"https://school-mates-demo.netlify.app/auth"
+      },    
   ];
   export default projects;

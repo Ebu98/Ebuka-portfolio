@@ -15,7 +15,6 @@ const Hero = (props: Props) => {
   });
 
 
-// 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
   return (
     <div className="h-screen flex flex-col space-y-8 justify-center items-center, text-center overflow-hidden">
       <BackgroundCircles />
